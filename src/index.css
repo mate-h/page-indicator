@@ -1,0 +1,39 @@
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user-select-none {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.max-w-prose {
+  max-width: 46em;
+}
+
+.block {
+  display: block;
+}
+
+.text-opacity-60 {
+  --text-opacity: 0.6;
+}
+
+:root {
+  --text-opacity: 1;
+}
+
+.text-black {
+  color: rgba(0, 0, 0, var(--text-opacity));
+}
